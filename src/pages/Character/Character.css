@@ -1,0 +1,24 @@
+.character-wrapper {
+    height: 100vh;
+    color: var(--text-light);
+    background-color: var(--bg-grey);
+}
+
+.character {
+    display: flex;
+    background-color: var(--bg-light-grey);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    overflow: hidden;
+    gap: 20px;
+    border-radius: 16px;
+}
+
+.character-info {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
