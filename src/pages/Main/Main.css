@@ -1,0 +1,49 @@
+.main {
+    min-height: 100vh;
+    overflow: hidden;
+    background-color: var(--bg-grey);
+}
+
+.main-header {
+    position: relative;
+    background-color: var(--bg-white);
+}
+
+.main-header h1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 80px;
+    width: 100%;
+    text-align: center;
+    color: var(--text-dark);
+}
+
+.main svg {
+    height: 20vh;
+    width: 100%;
+    fill: var(--fill-soft-white);
+    overflow: hidden;
+}
+
+.main-content {
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 80px 40px;
+    gap: 60px;
+    color: white;
+    align-items: center;
+}
+
+.main-content__list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 32px;
+    justify-content: center;
+}
+
+.main-content__pagination {
+    width: 100%;
+}

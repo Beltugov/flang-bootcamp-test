@@ -1,0 +1,54 @@
+/*Global*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    font-family: -apple-system, 'BlinkMacSystemFont', 'Segoe UI', 'Roboto', 'Helvetica', 'Arial', sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
+    font-weight: 600;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 900;
+}
+
+/*Palette*/
+
+:root {
+    --main-orange: #fb9600ff;
+    --main-green: #9acc4b;
+
+    --white: #ffffff;
+    --soft-white: #f3f3f3;
+    --soft-grey: #9E9E9EFF;
+    --light-grey: #3c3e44;
+    --middle-grey: #272b33;
+    --dark-grey: #202329;
+}
+
+:root {
+    --text-light: var(--white);
+    --text-light-soft: var(--soft-grey);
+    --text-dark: var(--dark-grey);
+    --text-orange: var(--main-orange);
+    --text-green: var(--main-green);
+    --text-red: #ba0000;
+
+    --bg-white: var(--white);
+    --bg-soft-grey: var(--soft-grey);
+    --bg-light-grey: var(--light-grey);
+    --bg-grey: var(--middle-grey);
+    --bg-dark: var(--dark-grey);
+
+    --fill-soft-white: var(--soft-white);
+}
+
+*::selection {
+    background: var(--bg-dark);
+    color: var(--text-orange);
+}
+
+
+
+
